@@ -25,9 +25,10 @@
     opacity: 1;
     background-color: #FAFAFA;
     width: 100%;
-    margin-left: -30px;
+    margin-left: -25px;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    display: block;
 }
 .state-popover {
     margin-top: -18px;

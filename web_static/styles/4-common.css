@@ -17,8 +17,8 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     margin: auto;
-    /* padding: 30px;
-    background-color: red; */
+    /* padding: 30px; */
+    /* background-color: green; */
 
 }
 button {
@@ -41,10 +41,17 @@ button:hover  {
 
 .locations,.amenities {
     width: 25%;
-    margin: 0 30px
+    margin: 0 30px;
+    font-weight: 600;
 }
 
 .locations{
     width: 100%;
     border-right: 1px solid #DDDDDD;
+}
+.amenities{
+    height: 100%;
+    width: 25;
+    margin-left: 30px;
+    margin: 0;
 }
