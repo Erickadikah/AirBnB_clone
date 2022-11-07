@@ -1,5 +1,6 @@
 # AirBnB clone - The console
 
+<img src="airpng.jpeg" alt="airbnb logo" width="30" height="35">
 <p align= "center">
 
 This project is the first step towards building a full web application: the AirBnB clone.
