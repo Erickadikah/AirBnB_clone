@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="styles/4-filters.css" />
     <link rel="stylesheet" href="styles/5-filters.css" />
     <link rel="stylesheet" href="styles/6-filters.css" />
-    <link rel="stylesheet" href="styles/7-places.css" />
     <link rel="stylesheet" href="styles/8-places.css" />
+    <link rel="stylesheet" href="styles/7-places.css" />
     <title></title>
 </head>
 
@@ -28,46 +28,160 @@
             <div class="locations">
                 <h3 class="filter-head">States</h3>
                 <h4 class="filter-detail">California, Arizona...</h4>
-                <ul class="popover">
-                    <h2 class="state-h2">Arizona:</h2>
-                    <ul class="state-popover">
-                        <li>page</li>
-                        <li>page2</li>
+                <section class="popover">
+                    <ul class="popover-ul">
+                        <div>
+                            <li>
+                                <h2 class="state-h2">Arizona:</h2>
+                                <ul class="popover-li">
+                                    <li>Page</li>
+                                    <li>Page2</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h2 class="state-h2">California:</h2>
+                                <ul class="popover-li">
+                                    <li>San Francisco</li>
+                                    <li>Los Altos</li>
+                                </ul>
+                            </li>
+                        </div>
                     </ul>
-                </ul>
+                </section>
             </div>
+
             <div class="amenities">
-                <h3 class="filter-head">Amenities</h3>
+                <h3 class="filter-head">amenities</h3>
                 <h4 class="filter-detail">Internet, Kitchen...</h4>
-                <ul class="popover amenities-li">
-                    <li>Internet</li>
-                    <li>TV</li>
-                    <li>kitchen</li>
-                    <li>Iron</li>
-                </ul>
+
+                <section class="amenities-popover">
+                    <ul class="amenities-drop-list">
+                        <li>Internet</li>
+                        <li>TV</li>
+                        <li>Kitchen</li>
+                        <li>Iron</li>
+                    </ul>
+                </section>
             </div>
             <button type="submit">Search</button>
         </section>
-    </div>
-    <section class="places">
-        <h1 class="places-title">places
-            <article class="places-ul">
-                <h2 class="places-li">
-                    My home
-                    <div class="price_by_night"><div class="price-tag">$80</div>
-                </h2>
-                <h2 class="places-li">
-                    Tiny house
-                    <div class="price_by_night"><div class="price-tag">$65</div>
-                </h2>
-                <h2 class="places-li">
-                    A suite
-                    <div class="price_by_night"><div class="price_by_night">$190</div>
-                </h2>
-            </article>
-        </h1>
-    </section>
 
+        <section class="places">
+            <h1 class="places-title">Places</h1>
+            <section class="article-tag">
+
+                <article class="places-ul">
+                    <h2 class="places-li">
+                        My home
+                        <div class="price_by_night">$80</div>
+                    </h2>
+                    <hr class="line-1">
+
+                    <div class="information">
+                        <div class="all-icons">
+                            <div class="max_guest">
+                                <div class="icons" style="background-image: url('images/icon_guest.png');">
+                                </div>
+                                <div class="guest-number icon-number">
+                                    2 Guests
+                                </div>
+                            </div>
+                            <div class="number_rooms">
+                                <div class="icons" style="background-image:url('images/icon_no_of_bed.png');">
+                                </div>
+                                <div class="room-number icon-number">
+                                    1 Bedroom
+                                </div>
+                            </div>
+                            <div class="number_bathrooms">
+                                <div class="icons" style="background-image:url('images/icon_bath.rooms.png');">
+                                </div>
+                                <div class="bath-number icon-number">
+                                    1 Bathroom
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user">Owner: Rick</div>
+                        <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quis, accusantium possimus perspiciatis illum temporibus neque cupiditate iusto excepturi distinctio eius, doloribus iste saepe quaerat veritatis ex facere vel laboriosam.</div>
+                    </div>
+                </article>
+
+                <article class="places-ul">
+                    <h2 class="places-li">
+                        Tiny house
+                        <div class="price_by_night">$65</div>
+                    </h2>
+                    <hr class="line-1">
+
+                    <div class="information">
+                        <div class="all-icons">
+                            <div class="max_guest">
+                                <div class="icons" style="background-image: url('images/icon_guest.png');">
+                                </div>
+                                <div class="guest-number icon-number">
+                                    2 Guests
+                                </div>   
+                            </div>
+                            <div class="number_rooms">
+                                <div class="icons" style="background-image:url('images/icon_no_of_bed.png');">
+                                </div>
+                                <div class="room-number icon-number">
+                                    1 Bedroom
+                                </div>  
+                            </div>
+                            <div class="number_bathrooms">
+                                <div class="icons" style="background-image:url('images/icon_bath.rooms.png');">  
+                                </div>
+                                <div class="bath-number icon-number">
+                                    1 Bathroom
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="user">Owner: Erick adikah</div>
+                        <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quis, accusantium possimus perspiciatis illum temporibus neque cupiditate iusto excepturi distinctio eius, doloribus iste saepe quaerat veritatis ex facere vel laboriosam.</div>
+                    </div>
+                </article>
+
+                <article class="places-ul">
+                    <h2 class="places-li">
+                        A suite
+                        <div class="price_by_night">$190</div>
+                    </h2>
+                    <hr class="line-1">
+
+                    <div class="information">
+                        <div class="all-icons">
+                            <div class="max_guest">
+                                <div class="icons" style="background-image: url('images/icon_guest.png');">
+                                </div>
+                                <div class="guest-number icon-number">
+                                    2 Guests
+                                </div>
+                            </div>
+                            <div class="number_rooms">
+                                <div class="icons" style="background-image:url('images/icon_no_of_bed.png');">
+                                </div>
+                                <div class="room-number icon-number">
+                                    1 Bedroom
+                                </div> 
+                            </div>
+                            <div class="number_bathrooms">
+                                <div class="icons" style="background-image:url('images/icon_bath.rooms.png');">  
+                                </div>
+                                <div class="bath-number icon-number">
+                                    1 Bathroom
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user"><span class="owner"></span>Owner: Samuel Adikah</div>
+                        <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quis, accusantium possimus perspiciatis illum temporibus neque cupiditate iusto excepturi distinctio eius, doloribus iste saepe quaerat veritatis ex facere vel laboriosam.</div>
+                    </div>
+                </article>
+
+            </section>
+        </section>
+    </div>
+    <br>
     <footer>
         <p class="text">Best School</p>
     </footer>
