@@ -1,24 +1,62 @@
 .menities {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 16px;
     border-bottom: #DDDDDD 1px;
     margin-right: 30px;
-    /* text-align: center; */
+    float: left;
 }
 
 .list {
     margin-top: 70px;
-    /* border-bottom: #DDDDDD 1px; */
+    border-bottom: #DDDDDD 1px;
     list-style: none;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .reviews {
     margin-top: 40px;
+    border-bottom: #DDDDDD 1px;
+    font-size: 16px;
 }
 
 .text_reviews {
     font-size: 16px;
     border-bottom: #DDDDDD 1px;
-    margin-right: 30px;
+    /* margin-right: -10px; */
+    /* padding: 20px; */
+    /* float: left; */
+    background-color: blue;
+}
+
+.icon {
+    /* width: 100px;
+    height: 50px; */
+    background-repeat: no-repeat;
+    height: 55px;
+    width: 140px;
+}
+
+.text-1 {
+    font-size: 16px;
+    /* float: right; */
+    /* background-color: yellow; */
+    font-weight: bold;
+    /* padding: 20px; */
+    /* text-align: center; */
+    /* margin: 20px; */
+    /* position: relative; */
+    margin: 0 50px;
+    /* margin-bottom: 1%; */
+    display: inline;
+    width: 100%;
+    height: 50%;
+    list-style: none;
+}
+
+.next {
+    align-items: left;
+    display: inline;
+    list-style: none;
 }
